@@ -220,7 +220,7 @@ The ledger prevents duplicate migrations. If an item's SourceID is already in th
 - **"(Migrated)" suffix:** Automatically appended to item titles when the target URL contains `batgis` or `stggisint` (staging environments). Controlled by `APPEND_MIGRATED` in config.
 - **Owner/folder mirroring:** If the source owner exists in the target portal, items are assigned to them in the same folder. Otherwise, items go to `DEFAULT_OWNER` / `DEFAULT_FOLDER`.
 - **Sharing mirroring:** Public/Org/Private access and group sharing are replicated by matching group titles.
-- **Bid Submission gap fix:** Layer indices >= 18 on service `c75f6865f6314403bca359a5546e525b` are shifted down by 1 to correct a known index gap.
+- **Layer-index gap fix (disabled by default):** If a source feature service has a gap in its layer indices (e.g., layer 17 missing), layers at index >= 18 will be off-by-one in the target. To enable: uncomment `PROBLEM_SOURCE_ID` in `migration_config.py` and uncomment the corresponding gap-fix blocks in notebooks 2, 3, 5, and 6.
 - **WAB / Legacy Story Maps:** Not migrated (incompatible with Portal 11.x). Logged to `app_inventory.csv` with rebuild recommendations.
 - **GP Services:** Cannot be migrated via API. Notebook 16 creates an inventory CSV with service details for manual rebuild.
 

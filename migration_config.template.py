@@ -59,12 +59,13 @@ THROTTLE_SECONDS = 10
 ID_BATCH_SIZE = 50
 
 # =============================================================================
-# --- KNOWN ISSUE OVERRIDES ----------------------------------------------------
+# --- KNOWN ISSUE OVERRIDES (DISABLED) ----------------------------------------
 # =============================================================================
-# Bid Submission Service gap fix: if a layer index >= 18 on this specific
-# source service, subtract 1 to correct the index shift in target.
-# Set to "" if not applicable to your environment.
-PROBLEM_SOURCE_ID = ""
+# EXAMPLE: Layer-index gap fix. If a source feature service has a gap in its
+# layer indices (e.g., layer 17 missing), layers at index >= 18 will be
+# off-by-one in the target. Uncomment and set the source item ID to enable.
+# The gap-fix logic in notebooks 2, 3, 5, and 6 must also be uncommented.
+# PROBLEM_SOURCE_ID = "your-source-item-id-here"
 
 # =============================================================================
 # --- PRE-FLIGHT SETTINGS -----------------------------------------------------
