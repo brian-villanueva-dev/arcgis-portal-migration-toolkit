@@ -1,0 +1,27 @@
+id,type,title,owner
+a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4,Feature Service,Parcels and Boundaries,jsmith
+b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5,Feature Service,Water Infrastructure,jdoe
+c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6,Feature Service,Transportation Routes,jsmith
+d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1,Map Service,Aerial Imagery Basemap,admin
+e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2,Web Map,City Infrastructure Overview,jdoe
+f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3,Web Map,Water Main Breaks 2024,jsmith
+a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3e5,Web Map,Zoning Districts,analyst1
+b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4f6,Dashboard,Permit Tracking Dashboard,jdoe
+c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5a1,Dashboard,Fleet Management Dashboard,admin
+d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6b2,Web Experience,Public Works Service Request,jsmith
+e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1c3,Web Experience Template,Department Report Template,admin
+f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2d4,Web Mapping Application,Property Lookup App,jdoe
+a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3e6,Web Mapping Application,Stormwater Viewer,analyst1
+b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4a7,Scene Service,3D Building Models,jsmith
+c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5b8,Vector Tile Layer,Custom Basemap Style,admin
+d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6c9,Tile Layer,Historical Aerial Tiles 1995,jdoe
+e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1d0,Image Service,NAIP Imagery 2023,admin
+f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2e1,Web Scene,Downtown 3D Development,jsmith
+a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3f2,Form,Pothole Report Survey,jdoe
+b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4a3,StoryMap,Annual Infrastructure Report,analyst1
+c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5b4,Notebook,Water Quality Analysis,jsmith
+d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6c5,Geoprocessing Service,Viewshed Calculator,admin
+e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1d6,Group,Public Works Team,jdoe
+f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2e7,Group,Planning Department,admin
+a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3f8,Code Attachment,Custom Widget Bundle,jsmith
+b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4a9,Image,Site Photo Collection,jdoe

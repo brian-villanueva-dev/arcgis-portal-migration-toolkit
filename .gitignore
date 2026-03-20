@@ -1,0 +1,58 @@
+# =============================================================================
+# Migration Toolkit — .gitignore
+# =============================================================================
+
+# --- Secrets & credentials (NEVER commit) ---
+migration_config.py
+
+# --- Migration data files ---
+migration_history.csv
+migration_history_staging.csv
+gp_service_inventory.csv
+app_inventory.csv
+*.csv
+!sample_inventory.csv
+
+# --- Orchestrator runtime files ---
+_sidecar_*.json
+_output_*.json
+_run_state.json
+
+# --- Temp / working directories ---
+thumbnails_temp/
+exports_temp/
+*.slpk
+*.vtpk
+*.tpk
+*.fgdb
+*.gdb/
+*.zip
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+.env
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
