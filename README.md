@@ -31,6 +31,12 @@ pip install arcgis pandas requests nbformat nbconvert
 
 ### 2. Configure
 
+Copy the template and fill in your values:
+
+```bash
+cp migration_config.template.py migration_config.py
+```
+
 Edit `migration_config.py` with your portal URLs, tokens, and paths:
 
 ```python
@@ -41,6 +47,8 @@ TARGET_TOKEN = "your-target-token"
 TEMP_DIR     = r"C:\Temp\Migration"
 LOG_FILE     = r"C:\Temp\Migration\migration_history.csv"
 ```
+
+> `migration_config.py` is in `.gitignore` — your credentials stay local.
 
 ### 3. Prepare inventory
 

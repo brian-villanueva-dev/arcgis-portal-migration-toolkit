@@ -22,7 +22,14 @@ There are two ways to run it:
 
 ## Step 1: Configure
 
+Copy the template and fill in your values:
+
+```
+cp migration_config.template.py migration_config.py
+```
+
 Edit **`migration_config.py`** once. All notebooks and the orchestrator read from this file.
+`migration_config.py` is in `.gitignore` — your credentials stay local.
 
 ```python
 # Portal connections
